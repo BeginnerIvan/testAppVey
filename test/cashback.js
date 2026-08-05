@@ -13,7 +13,7 @@ const cashback = {
     },
 };
 
-export default function calculateCashback(amount) {
+    export default function calculateCashback(amount) {
   if (amount >= cashback.gold.bound) {
     return Math.ceil(amount * cashback.gold.percent / 100);
   }
